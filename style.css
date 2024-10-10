@@ -1,0 +1,11 @@
+.background-img {
+  background: url("https://courses.ics.hawaii.edu/ics314f24/morea/ui-frameworks/wod-aloha-beer-kakaako.png") no-repeat center fixed;
+  background-size: cover;
+  height: 450px;
+  color: #EDC601
+}
+
+footer {
+  background-color: #EDC601;
+  height:200px
+}
