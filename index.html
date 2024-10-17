@@ -32,44 +32,44 @@
           <li><i class="bi bi-facebook p-1"></i></li>
           <li><i class="bi bi-instagram p-1"></i></li>
         </ul>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTop">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-          <nav class="navbar" style="color:grey">
-            <div class="nav-link">Independent craft brewery and beer garden in Honolulu, Hawaii</div>
-          </nav>
+        <div class="collapse navbar-collapse" id="navbarTop">
+          <ul class="navbar-nav mx-auto" style="color:grey">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Independent craft brewery and beer garden in Honolulu, Hawaii</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <ul class="nav justify-content-start">
-          <img src="https://courses.ics.hawaii.edu/ics314f24/morea/ui-frameworks/wod-aloha-beer-logo.png" width="150px"
-            class="nav-brand py-2 px-4">
-        </ul>
-        <button class="navbar-toggler collapsed">
+        <a class="navbar-brand" href="#">
+          <img src="https://courses.ics.hawaii.edu/ics314f24/morea/ui-frameworks/wod-aloha-beer-logo.png"
+            alt="Aloha Beer Co. Logo" height="100px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse show justify-content-end" id="navbarResponsive">
-          <ul class="navbar-nav">
-            <li class="nav-link p-2" style="color: black">Locations & Menus</li>
-            <li class="nav-link p-2" style="color: black">Events</li>
-            <li class="nav-link p-2" style="color: black">Brewery</li>
-            <li class="nav-link p-2" style="color:#EDC601">Shop</li>
+        <div class="collapse navbar-collapse" id="navbarMain">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Locations & Menus</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Brewery</a></li>
+            <li class="nav-item"><a class="nav-link active" href="#">Shop</a></li>
           </ul>
-        </div>
-        <div class="collapse navbar-collapse show justify-content-end" id="navbarResponsive">
           <ul class="navbar-nav">
-            <li class="nav-link p-2" style="color: black">Account</li>
-            <li class="nav-link p-2" style="color: black">Search <i class="bi bi-search"></i></li>
-            <li class="nav-link p-2" style="color: black">Cart <i class="bi bi-cart3"></i></li>
+            <li class="nav-item"><a class="nav-link" href="#">Account</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-search"></i> Search</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-cart3"></i> Cart</a></li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
+
   <!--Body-->
   <div class="background-img">
     <div style="transform: translate(2%,175%)">
